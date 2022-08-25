@@ -1,6 +1,6 @@
 #TO DO LIST
 
-![To Do List](C:\Users\letic\OneDrive\Documentos\Javascript)
+![To Do List](https://github.com/leticialima-dev/ToDo-List-em-JS/blob/main/todo_list.png)
 
 >Status: Concluído 🚀 
 
