@@ -1,0 +1,140 @@
+body {
+    background-image:url("img/todo.jpg") ;
+    text-align: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 700;
+}
+
+#first {
+    color: #d95ecc;
+    margin-top: 10px;
+    font-size: 22px;
+    
+}
+
+#second {
+    color: #f75dff;
+    font-size: 22px;
+
+}
+
+#third {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 30px;
+
+}
+
+.row{
+    margin: auto;
+    width: 50%;;
+    padding: 10px;
+}
+
+.dados{
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+#enter {
+    border-color: #d95ecc;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(202, 244, 240);
+    background-color: white;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#enter:hover{
+    background-color: #d95ecc;
+    color: #FFCD5D;
+}
+
+    #enter img{
+        width: 25px;
+        height: 25px;
+    }
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+    
+}
+
+
+li {
+    list-style: none;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    color:  #d95ecc;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid  #d95ecc;
+    border-radius: 5px;
+    background: white;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+}
+
+li:hover {
+    background: rgb(247, 160, 237);
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right !important;
+    color: #d95ecc;
+    font-weight: 800;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 20px;
+    min-width: 90%;
+    padding: 5px;
+    height: 35px;
+    border:#d95ecc;
+    margin: 0px;
+    float: left;
+}
+
+
+.done {
+    background: #d95ecc !important;
+    color: white;
+}
+
+.delete {
+    display: none;
+}
+
